@@ -6,9 +6,17 @@
   transition: 0.2s;
 }
 
+*:focus {
+  border: none;
+}
+
 body {
   margin-left: auto;
   margin-right: auto;
+}
+
+section {
+  margin-bottom: 105px;
 }
 
 .container {
@@ -61,7 +69,7 @@ body {
   min-width: 100%;
 }
 
-.header__logo {
+.logo {
   width: 105px;
   height: 55px;
   display: flex;
@@ -75,10 +83,6 @@ body {
   border-radius: 5px;
   font-size: 24px;
   line-height: 36px;
-}
-
-.first-screen {
-  margin-bottom: 105px;
 }
 
 .first-screen__body {
@@ -128,10 +132,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.skills {
-  margin-bottom: 135px;
 }
 
 .skills__title {
@@ -289,6 +289,10 @@ body {
   flex-direction: column;
 }
 
+.about-us__item-title {
+  color: #2A3246;
+}
+
 .about-us__sub-title {
   color: #8F95A5;
   max-width: 635px;
@@ -302,4 +306,176 @@ body {
 .about-us__img {
   max-width: 500px;
   max-height: 500px;
+  margin-left: 30px;
+}
+
+.pricing__main-title {
+  margin-bottom: 85px;
+}
+
+.pricing__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing__img_first {
+  max-width: 311px;
+  max-height: 311px;
+  margin-bottom: 43px;
+}
+
+.pricing__title {
+  color: #263238;
+  margin-bottom: 20px;
+}
+
+.pricing__sub-title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #8F95A5;
+}
+
+.pricing__sub-title_first {
+  max-width: 420px;
+  margin-bottom: 30px;
+}
+
+.pricing__price-block {
+  width: 240px;
+  height: 55px;
+  background: #EEEEEE;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing__price {
+  color: #263238;
+  margin-right: 8px;
+  font-weight: 400;
+}
+
+.pricing__price-interval {
+  font-size: 18px;
+  line-height: 27px;
+  color: #546269;
+}
+
+.pricing__item_second {
+  margin: 0px 20px 0px 20px;
+}
+
+.pricing__img_second {
+  max-width: 391px;
+  max-height: 283px;
+  margin-bottom: 43px;
+}
+
+.pricing__sub-title_second {
+  max-width: 372px;
+  margin-bottom: 60px;
+}
+
+.pricing__img_third {
+  max-width: 340px;
+  max-height: 340px;
+  margin-bottom: 20px;
+}
+
+.pricing__sub-title_third {
+  max-width: 390px;
+  margin-bottom: 56px;
+}
+
+.contact-us__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us__img {
+  max-width: 477px;
+  max-height: 429px;
+}
+
+.contact-us__title {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.contact-us__sub-title {
+  max-width: 737px;
+  font-size: 20px;
+  color: #8F95A5;
+  margin-bottom: 50px;
+}
+
+.email-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-form__input {
+  max-width: 450px;
+  height: 80px;
+  border: 1px solid #8F95A5;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  color: #8F95A5;
+  padding-left: 33px;
+}
+
+.email-form__input:focus {
+  border: 3px solid #8F95A5;
+}
+
+.email-form__input:focus-visible {
+  border: 3px solid #8F95A5;
+}
+
+.email-form__btn {
+  max-width: 264px;
+  height: 80px;
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer {
+  height: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #C4C4C4;
+  padding: 0px 30px;
+}
+
+.footer__body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__navigation {
+  display: flex;
+}
+
+.footer__link {
+  font-size: 24px;
+  line-height: 36px;
+  color: #8F95A5;
+  text-decoration: none;
 }
