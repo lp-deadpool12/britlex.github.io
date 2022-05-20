@@ -575,12 +575,13 @@ button {
     .first-screen__title {
         font-size: 48px;
         line-height: 64px;
+        width: 290px;
     }
 
     .first-screen__lamp {
-        max-width: 58px;
-        max-height: 58px;
-
+        width: 60px;
+        height: 60px;
+        margin-left: 12px;
     }
 
     .first-screen__sub-title {
@@ -589,8 +590,8 @@ button {
     }
 
     .first-screen__btn {
-        width: 292px;
-        height: 80px;
+        max-width: 292px;
+        max-height: 80px;
         font-size: 24px;
         line-height: 36px;
         border-radius: 5px;
@@ -842,5 +843,185 @@ button {
     .footer__link {
         font-size: 16px;
         line-height: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        margin-bottom: 50px;
+    }
+    .container {
+        max-width: 700px;
+    }
+    .h2 {
+
+    }
+    .h3 {
+    }
+    
+    .header__btn {
+        font-size: 18px;
+        line-height: 27px;
+        width: 80px;
+        height: 27px;
+    }
+    
+    
+    section{
+        margin-bottom: 55px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    
+    .first-screen__title-block {
+        margin-bottom: 25px;
+        align-items: flex-end;
+    }
+    .first-screen__title {
+        font-size: 36px;
+        line-height: 45px;
+        max-width: 220px;
+    }
+    .first-screen__lamp {
+        width: 50px;
+        height: 50px;
+    }
+    .first-screen__sub-title {
+        max-width: 336px;
+        font-size: 16px;
+        line-height: 24px;
+        
+    }
+    .first-screen__btn {
+        max-width: 236px;
+        max-height: 65px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .first-screen__right-side {
+        max-width: 352px;
+        max-height: 352px;
+    }
+    
+    .skills__title {
+        margin-bottom: 40px;
+    }
+    
+    .skills__body {
+    }
+    .skills__item {
+    }
+    .skills__item_speaking {
+    }
+    .skills__speaking-img {
+    }
+    .skills__item-title {
+    }
+    .skills__item-title_speaking {
+    }
+    
+    .skills__item-sub-title {
+    }
+    .skills__item-sub-title_speaking {
+    }
+    .skills__item-btn {
+    }
+    .skills__item_writing {
+    }
+    .skills__writing-img {
+    }
+    .skills__item-title_writing {
+    }
+    .skills__item-sub-title_writing {
+    }
+    .skills__item_reading {
+    }
+    .skills__reading-img {
+    }
+    .skills__item-title_reading {
+    }
+    .skills__item-sub-title_reading {
+    }
+    .skills__item_listening {
+    }
+    .skills__item-title_listening {
+    }
+    .skills__item-sub-title_listening {
+    }
+    .skills__listening-img {
+    }
+    .dn {
+    }
+    .about-us {
+    }
+    .about-us__body {
+    }
+    .about-us__title {
+    }
+    .about-us__sub-title {
+    }
+    .about-us__items {
+    }
+    .about-us__item {
+    }
+    .about-us__item-title {
+    }
+    .about-us__item-sub-title {
+    }
+    .about-us__img {
+    }
+    .pricing {
+    }
+    .pricing__main-title {
+    }
+    .pricing__items {
+    }
+    .pricing__item {
+    }
+    .pricing__img {
+    }
+    .pricing__img_first {
+    }
+    .pricing__title {
+    }
+    .pricing__sub-title {
+    }
+    .pricing__sub-title_first {
+    }
+    .pricing__price-block {
+    }
+    .pricing__price {
+    }
+    .pricing__price-interval {
+    }
+    .pricing__item_second {
+    }
+    .pricing__img_second {
+    }
+    .pricing__sub-title_second {
+    }
+    .pricing__img_third {
+    }
+    .pricing__sub-title_third {
+    }
+    .contact-us__img {
+    }
+    .contact-us__title {
+    }
+    .contact-us__sub-title {
+    }
+    .email-form {
+    }
+    .email-form__input {
+    }
+    .email-form__btn {
+    }
+    .footer {
+    }
+    .footer__body {
+    }
+    .footer__navigation {
+    }
+    .footer__link {
     }
 }
